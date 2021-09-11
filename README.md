@@ -13,6 +13,7 @@ This project is based on [gintooooonic/boilerplate-vanillajs](https://github.com
 
 ```bash
 git clone https://github.com/gintooooonic/boilerplate-vanillajs-spa.git
+cd boilerplate-vanillajs-spa
 npm install
 ```
 
