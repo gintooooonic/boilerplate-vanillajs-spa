@@ -46,5 +46,14 @@ module.exports = {
 		new HtmlWebpackPlugin({
 			template: './public/index.html'
 		})
-	]
+	],
+
+	resolve: {
+		alias: {
+			'~': path.resolve(__dirname, './'),
+			'@lib': path.resolve(__dirname, './lib/'),
+			'@public': path.resolve(__dirname, './public/'),
+			'@src': path.resolve(__dirname, './src/')
+		}
+	}
 }
