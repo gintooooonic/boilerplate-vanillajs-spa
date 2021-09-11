@@ -1,0 +1,42 @@
+.title {
+	margin: 40px 0;
+	text-align: center;
+}
+
+.board {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.card {
+	width: 600px;
+	margin: 10px;
+	padding: 10px 20px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.quote {
+	background-color: #292b2c;
+	color: #FFFFFF;
+	font-style: italic;
+	font-family: "Times New Roman", Times, serif;
+
+	.quote_msg {
+		font-size: 22px;
+	}
+
+	.quote_by {
+		font-size: 16px;
+		text-align: right;
+	}
+}
+
+.adder {
+	background-color: #5cb85c;
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: bold;
+	cursor: pointer;
+}

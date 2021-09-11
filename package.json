@@ -1,0 +1,39 @@
+{
+  "name": "boilerplate-vanillajs-spa",
+  "version": "1.0.0",
+  "description": "Boilerplate for building a simple single-page application with VanillaJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gintooooonic/boilerplate-vanillajs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gintooooonic/boilerplate-vanillajs/issues"
+  },
+  "homepage": "https://github.com/gintooooonic/boilerplate-vanillajs#readme",
+  "dependencies": {
+    "core-js": "^3.17.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.4",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0"
+  }
+}
