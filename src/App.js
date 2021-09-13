@@ -6,7 +6,7 @@ export default class App extends Component {
 		this.state = { items: ['item1', 'item2'] };
 	}
 
-	render() {
+	html() {
 		const { items } = this.state;
 		return `
 			<ul>
