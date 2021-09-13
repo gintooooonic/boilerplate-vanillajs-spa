@@ -21,9 +21,7 @@ export default class App extends Component {
 		this.setState({ items: [ ...items, `item${items.length + 1}`] });
 	}
 
-	setEvent() {
-		const addButton = this.targetEl.querySelector('button');
-		addButton.removeEventListener('click', this.addItem);
-		addButton.addEventListener('click', this.addItem);
+	afterRender() {
+		this.setEvent('click', 'button', this.addItem);
 	}
 }
