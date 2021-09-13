@@ -22,3 +22,7 @@ npm install
 ```bash
 npm run build
 ```
+
+### Reference
+
+- [Vanilla Javascript로 가상돔(VirtualDOM) 만들기](https://junilhwang.github.io/TIL/Javascript/Design/Vanilla-JS-Virtual-DOM)
