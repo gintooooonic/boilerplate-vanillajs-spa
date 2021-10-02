@@ -1,15 +1,14 @@
 import Component from '@lib/Component';
-import CardView from './CardView';
+import Route from '@lib/Route';
+import RouteMap from '@src/RouteMap';
 
 export default class App extends Component {
-  template() {
-    return `
-      <div class="App"></div>
-    `;
+  constructor($target) {
+    super($target);
+    Route.init($target, RouteMap);
   }
 
   afterRender() {
-    const cardView = new CardView(this.$('.App'), { title: 'Foods' });
-    cardView.render();
+    Route.route();
   }
 }
